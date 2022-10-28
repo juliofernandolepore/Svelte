@@ -1,9 +1,12 @@
 import App from './App.svelte';
 
+/* aqui se esta importando el archivo App.svelte */
+
+
 const app = new App({
 	target: document.body,
 	props: {
-		name: 'world'
+		nombre: 'valor de la variable name'
 	}
 });
 
