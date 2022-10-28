@@ -1,13 +1,9 @@
+/* Este es el archivo main y aqui se esta importando el archivo App.svelte */
+
 import App from './App.svelte';
 
-/* aqui se esta importando el archivo App.svelte */
-
-
 const app = new App({
-	target: document.body,
-	props: {
-		nombre: 'valor de la variable name'
-	}
+	target: document.body,	
 });
 
 export default app;
