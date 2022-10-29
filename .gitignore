@@ -2,5 +2,7 @@ proyecto2Condicionales/node_modules/
 proyecto2Condicionales/public/build/
 proyecto1/node_modules/
 proyecto1/public/build/
+proyecto2Condicionales/vscode/
+proyecto1/vscode/
 
 .DS_Store
