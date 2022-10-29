@@ -1,27 +1,26 @@
 <script lang="ts">
-  let nombre: string = "amore";
   let varContador: number = 0;
-
-  const agregar = () => {
-    varContador++;
-  };
-  const restar = () => {
-    varContador--;
-  };
-  const reset = () => {
-    varContador = 0;
-  };
+  const modificadorContador = (value: number): number => (varContador += value);
+  const reseteo = (): number => (varContador = 0);
 </script>
 
 <main>
-  <h1>Hola {nombre}!</h1>
-  <p>contador: {varContador}</p>
-  <button on:click={agregar}>+1</button>
-  <button on:click={restar}>-1</button>
-  <button on:click={reset}>reset</button>
+  <h1>aplicacion contador</h1>
+  <p class={varContador > 0 ? "positivo" : "negativo"}>
+    la cantidad es: {varContador}
+  </p>
+  <button on:click={() => modificadorContador(+1)}>+1</button>
+  <button on:click={() => modificadorContador(-1)}>-1</button>
+  <button on:click={reseteo}>reset</button>
 </main>
 
 <style>
+  .positivo {
+    color: blue;
+  }
+  .negativo {
+    color: red;
+  }
   main {
     text-align: center;
     padding: 1em;
