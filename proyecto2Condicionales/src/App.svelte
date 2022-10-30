@@ -15,6 +15,10 @@
 <main>
   {#if visible}
     <Mensaje />
+    {:else}
+    <div>
+      <h2>esto es el bloque else y es la parte false</h2>
+    </div>
   {/if}
   <button on:click={manejoColor}>mostrar/ocultar</button>
 </main>

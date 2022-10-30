@@ -2,7 +2,7 @@
 </script>
 
 <div>
-  <h1>soy un mensaje del componente Mensaje</h1>
+  <h2>soy un mensaje del componente Mensaje</h2>
 </div>
 
 <style>

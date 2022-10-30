@@ -11,3 +11,4 @@ paso 4: ejecutar npm i o npm install..
 paso 5: npm run dev (dentro del directorio de la app.).
 paso 6: al hacer click en la x de la terminal(cmd) esto solo oculta la terminal.
 Paso 7: (aplica ts a un proyecto prexistente): npm install --save-dev @tsconfig/svelte typescript svelte-preprocess svelte-check.
+paso 8: el el archivo index.html dentro de la carpeta public colocamos el link de bootstrap (en el head).

@@ -4,5 +4,7 @@ proyecto1/node_modules/
 proyecto1/public/build/
 proyecto2Condicionales/vscode/
 proyecto1/vscode/
+proyecto3/node_modules/
+proyecto3/public/build/
 
 .DS_Store
