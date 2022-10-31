@@ -4,7 +4,7 @@
 </script>
 
 <main class="text-center">
-  <h1 class="h1">Hello {name}!</h1>
+  <h1 class="h1">aplicacion {name}!</h1>
   <hr />
   <Clima />
 </main>

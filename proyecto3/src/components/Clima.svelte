@@ -1,4 +1,19 @@
 <script lang="ts">
+  /* variables para la api del clima */
+  let ciudad = "cordoba";
+  const llave = "e7635322bd5cebfd0fc5e0ec117fbca6";
+
+  /* esta sera una funcion asincrona */
+  const capturarDatosTiempo = async () => {
+    const respuesta = await fetch(
+      `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&limit=5&appid=${llave}`
+    );
+    /* ESTA FUNCION convierte lo recibido y los almacena en otra constante */
+    const datoJson = await respuesta.json();
+    console.log(datoJson);
+  };
+
+  capturarDatosTiempo();
 </script>
 
 <div class="container">
