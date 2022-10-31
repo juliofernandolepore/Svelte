@@ -1,7 +1,7 @@
 <script lang="ts">
   /* variables para la api del clima */
   let ciudad = "cordoba";
-  const llave = "e7635322bd5cebfd0fc5e0ec117fbca6";
+  const llave = "llave oculta";
 
   /* esta sera una funcion asincrona */
   const capturarDatosTiempo = async () => {
